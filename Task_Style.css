@@ -1,0 +1,193 @@
+html
+{
+    overflow-y:scroll;
+}
+
+body
+{
+    background-color: white;
+    margin:0px 10% 10px 10%;
+    padding:0;    
+    font-family:Georgia, "Times New Roman", Times, serif; 
+    color:#919191; 
+}
+.main_container{
+    display:block;
+   
+    margin:0;
+    padding:5px; 
+    
+}
+.container{
+    display: flex;
+    background-color: rgb(77, 73, 73);
+    
+}
+.container .logo{
+    color: white;
+    width: 50%;
+    padding: 10px;
+    
+
+}
+.container .navbar {
+    color: white;
+    width: 50%;
+    margin-top: 40px;  
+}
+.banner img{
+    margin-top: 20px;
+    width: 97%;
+    height: 350px;
+    padding: 10px;
+}
+
+.header .logo h1, .header .logo h2
+{
+    font-weight:normal;
+    font-style:normal; 
+    text-transform:none;
+}
+.header .logo h1 a
+{
+    color: gainsboro;
+    text-decoration: none;
+    
+    font-size:36px;
+}
+.header .logo h2
+{
+    font-size:13px;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+ .navbar li {
+    float:left;
+  }
+  
+ .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ .navbar li a:hover {
+    background-color: #111;
+  }
+  .grid_container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+   
+    padding: 10px;
+}
+figure{
+    display: flex;
+}
+figcaption{
+    color: gray;
+}
+a{
+    color: rgb(243, 135, 33);
+    cursor: pointer;
+}
+.fl_left
+{
+    float:left;
+}
+.fl_right
+{
+    float:right;
+}
+article.fl_right{
+    margin-left: 600px;
+}
+hr{
+    margin-top: 50px;
+    
+}
+.row_flex {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    
+}
+  
+.one_quarter
+{
+    margin-top: 40px;
+    display: flex;
+    
+    
+}
+.three_quarter{
+    margin-top: 40px;
+    background-color: transparent;
+    width: 40%;
+}
+
+
+
+#homepage section article footer
+{
+    text-align:left;
+}
+.blog{
+    display: flex;
+    flex-direction:row;
+}
+#homepage section nav{
+    background-color: white;
+}
+
+#homepage section nav ul{
+    list-style-type: none;
+}
+#homepage section nav li
+{
+   
+    margin-right: 30px;
+    width: 150px;    
+    padding:10px; 
+    border-bottom:1px solid #D6D6D6;
+}
+#homepage section nav li.last
+{
+    margin:0;
+}
+#homepage section nav a
+{
+    
+    text-decoration: none;
+    color: black;
+   
+}
+#homepage
+{
+     
+    width:100%; 
+    line-height:1.6em;
+}
+#homepage section
+{
+    margin-bottom:0;
+}
+#footer
+{
+    margin-top: 30px;
+    height: 150px;    
+    background-color: rgb(63, 59, 59);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
